@@ -65,7 +65,7 @@ const SpeechToTextContainer = ({ apiKey1 }) => {
     if (!transcript.trim()) return;
 
     try {
-      const response = await fetch('http://localhost:5000/ask', {
+      const response = await fetch('http://bot-backend-xi.vercel.app/ask', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
