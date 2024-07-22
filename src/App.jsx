@@ -3,7 +3,7 @@ import SpeechToTextContainer from './SpeechToTextContainer';
 
 const App = () => {
   const deepgramApiKey = 'b92a68265e5141e89b6af5ae607316e0fdecfe7a';  
-  const flaskApiUrl = 'http://botbackend-rosy.vercel.app/';   
+  const flaskApiUrl = 'https://botbackend-rosy.vercel.app/';   
 
 
   return (
